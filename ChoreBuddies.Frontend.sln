@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.36105.23 d17.13
+VisualStudioVersion = 17.13.36105.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoreBuddies.Frontend", "ChoreBuddies.Frontend\ChoreBuddies.Frontend.csproj", "{8D7D115F-BC86-F683-7D74-3E73CD3E4E18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoreBuddies.Frontend.AppHost", "ChoreBuddies.Frontend.AppHost\ChoreBuddies.Frontend.AppHost.csproj", "{70ECB6A7-3D21-49CE-AA3C-469A1E6C0A80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoreBuddies.Frontend.ServiceDefaults", "ChoreBuddies.Frontend.ServiceDefaults\ChoreBuddies.Frontend.ServiceDefaults.csproj", "{F3815C7C-20FB-A9A3-0B26-74CD200E917F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Editor Configuration", "Editor Configuration", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
