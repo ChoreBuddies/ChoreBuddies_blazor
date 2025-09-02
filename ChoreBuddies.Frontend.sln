@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Editor Configuration", "Edi
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ChoreBuddies_SharedModels", "libs\shared-models\ChoreBuddies_SharedModels\ChoreBuddies_SharedModels.shproj", "{851D259E-BA39-4E5F-894F-171E4DCA97F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,5 +40,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1503507B-11DA-46FC-959E-3EEBACB35BAC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		libs\shared-models\ChoreBuddies_SharedModels\ChoreBuddies_SharedModels.projitems*{851d259e-ba39-4e5f-894f-171e4dca97f2}*SharedItemsImports = 13
+		libs\shared-models\ChoreBuddies_SharedModels\ChoreBuddies_SharedModels.projitems*{8d7d115f-bc86-f683-7d74-3e73cd3e4e18}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
